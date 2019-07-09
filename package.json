@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "git checkout integration-ssr && npm i -g @angular/cli@8.0.3 && npm i && npm run build:ssr && npm run serve:ssr",
+    "start": "npm run update && npm run install-cli && npm i && npm run build:ssr && npm run serve:ssr",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "compile:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve:ssr": "node dist/server",
+    "update": "git pull",
+    "install-cli": "npm i -g @angular/cli@8.0.3",
     "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
     "build:client-and-server-bundles": "ng build --prod && ng run ssr:server:production"
   },
