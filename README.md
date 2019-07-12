@@ -1,6 +1,18 @@
-# Ssr
+# Server Side Rendering
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+
+# Requeriments
+
+Project use 
+
+1. **Node** version `11.7.0`
+2. **Angular CLI** version `8.0.3`
+
+For get requeriments execute in terminal:
+
+1. `nvm use`
+2. `npm run requeriments`
 
 ## Development server
 

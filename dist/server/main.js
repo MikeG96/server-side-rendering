@@ -566,7 +566,7 @@ __webpack_require__.r(__webpack_exports__);
 const URL_BASE = 'https://jsonplaceholder.typicode.com/';
 const environment = {
     production: true,
-    site_url: 'http://localhost:4000/',
+    site_url: 'https://ssr-angular.herokuapp.com/',
     articles: URL_BASE + 'posts'
 };
 
